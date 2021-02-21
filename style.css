@@ -37,18 +37,27 @@ header h1 {
 
 
 #main-menu ul li {
+    float: left;
+    width: 140px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
 
 }
 
 .bw {
+    position: absolute;
     width: 140px;
     height: 500px;
     cursor: pointer;
     background: url('images/bw-image.jpg') no-repeat;
     opacity: 0.7;
+    left: 0px;
  }
 
 .color {
+    position: absolute;
+    left: 140px;
     width: 140px;
     height: 500px;
     cursor: pointer;
@@ -72,6 +81,8 @@ header h1 {
 }
 
 .desc {
+    position: absolute;
+    left: 140px;
     width: 240px;
     height: 460px;
     padding: 20px;
